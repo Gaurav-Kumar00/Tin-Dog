@@ -1,0 +1,261 @@
+/**************************************************************** Html Elements *****************************************************/
+
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+
+p
+{
+    color:#8f8f8f;
+}
+
+
+/******************************************************************* Headings *****************************************************/
+
+
+.big-heading
+{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+.section-heading
+{
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+
+.card-heading
+{
+    font-size: 1.5rem;
+}
+
+
+/**************************************************************** Containers ***************************************************/
+
+
+.container-fluid
+{
+    padding:7% 15%;
+}
+
+
+/**************************************************************** Sections ***************************************************/
+
+
+.colored-section
+{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+
+.white-section
+{
+    background-color: #fff;
+}
+
+
+/**************************************************************** Navigation-bar ***************************************************/
+
+
+.navbar
+{
+    padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+
+.nav-link
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: light;
+    font-size: 1.2rem;
+}
+
+
+
+/**************************************************************** Title Section *****************************************************/
+
+
+#title .container-fluid
+{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+
+.Title-image-col
+{
+    position: relative;
+}
+
+
+.Title-image
+{   
+    transform: rotate(25deg);
+    position: absolute;
+    width: 60%;
+    right: 30%;
+}
+
+
+/*************************************************************** Download Buttons ***************************************************/
+
+
+.Download-button
+{
+    margin: 5% 3% 5% 0;
+}
+
+
+/************************************************************* Features section ***************************************************/
+
+
+#features
+{
+    position: relative;
+}
+
+
+.feature-box
+{
+    padding: 5%;
+}
+
+
+.features-title
+{
+    font-size: 1.5rem;
+}
+
+
+.icon
+{
+    margin-bottom: 1.5rem;
+    color: #ef8172;
+}
+
+
+.icon:hover
+{
+    color: #ff4c68;
+}
+
+
+/*********************************************************** Testimonials section ***************************************************/
+
+
+#testimonials
+{
+    background-color: #ef8172;
+    color: #fff;
+}
+
+
+.testimonial-image
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+.testimonial-text
+{
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+
+/*********************************************************** Press section ***************************************************/
+
+
+#press
+{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+
+.press-logo
+{
+    margin: 20px;
+    width: 15%;
+}
+
+
+/*********************************************************** Pricing section ***************************************************/
+
+
+#pricing
+{
+    padding: 100px;
+}
+
+
+.pricing-column 
+{
+    padding: 3% 2%;
+}
+
+
+.price-text
+{
+    line-height: 1.5;
+    font-size: 3rem;   
+}
+
+
+/*********************************************************** footer section ***************************************************/
+
+
+.footer-icon
+{
+    margin:2% 1%; /* Padding can also be used */
+}
+
+
+/*********************************************************** Media Query ***************************************************/
+
+
+@media (max-width: 1018px) {
+    .container-fluid
+    {
+        text-align: center;
+    }
+
+
+    .Title-image
+    {
+        position: static;
+        transform: rotate(0);
+    }
+}
